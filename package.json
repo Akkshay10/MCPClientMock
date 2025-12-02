@@ -1,0 +1,54 @@
+{
+  "name": "mockserver-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for James Bloom MockServer - create expectations, verify requests, and manage mock state",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "mockserver-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mockserver",
+    "mock",
+    "testing",
+    "api",
+    "http",
+    "ai",
+    "llm"
+  ],
+  "author": "Akshay Tewari",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mockserver-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/mockserver-mcp/issues"
+  },
+  "homepage": "https://github.com/your-username/mockserver-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
