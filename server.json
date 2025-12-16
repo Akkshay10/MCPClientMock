@@ -6,22 +6,29 @@
     "url": "https://github.com/Akkshay10/MCPClientMock",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "mockserver-mcp",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       },
       "environmentVariables": [
         {
-          "description": "Your API key for the service",
-          "isRequired": true,
+          "description": "MockServer hostname",
+          "isRequired": false,
           "format": "string",
-          "isSecret": true,
-          "name": "YOUR_API_KEY"
+          "isSecret": false,
+          "name": "MOCKSERVER_HOST"
+        },
+        {
+          "description": "MockServer port",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "MOCKSERVER_PORT"
         }
       ]
     }
