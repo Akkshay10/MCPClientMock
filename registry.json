@@ -1,11 +1,11 @@
 {
   "name": "mockserver-mcp",
   "type": "server",
-  "description": "An MCP server for configuring and querying MockServer. Create mock HTTP expectations, verify requests, retrieve recorded requests, and manage mock state.",
+  "description": "An MCP server that manages MockServer expectations, verification and logs.",
+  "categories": ["Testing", "Developer Tools"],
   "homepage": "https://github.com/Akkshay10/MCPClientMock",
   "download_url": "https://github.com/Akkshay10/MCPClientMock/releases/latest/download/mockserver-mcp.tar.gz",
   "author": "Akshay Tewari",
   "license": "MIT",
-  "keywords": ["mockserver", "testing", "mocks", "mcp", "api", "http"],
-  "categories": ["Testing", "Developer Tools"]
+  "keywords": ["mockserver", "testing", "mocks", "mcp"]
 }
