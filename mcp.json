@@ -1,0 +1,12 @@
+{
+  "name": "mockserver-mcp",
+  "version": "1.0.0",
+  "description": "An MCP server that manages expectations and requests for MockServer.",
+  "license": "MIT",
+  "repository": "https://github.com/Akkshay10/MCPClientMock",
+  "keywords": ["mock", "mockserver", "testing", "mcp", "server", "api"],
+  "server": {
+    "command": "node",
+    "args": ["dist/index.js"]
+  }
+}
