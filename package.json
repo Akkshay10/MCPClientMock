@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/mockserver-mcp.git"
+    "url": "https://github.com/Akkshay10/MCPClientMock"
   },
   "bugs": {
-    "url": "https://github.com/your-username/mockserver-mcp/issues"
+    "url": "https://github.com/Akkshay10/MCPClientMock/issues"
   },
-  "homepage": "https://github.com/your-username/mockserver-mcp#readme",
+  "homepage": "https://github.com/Akkshay10/MCPClientMock#Readme",
   "engines": {
     "node": ">=18.0.0"
   },
