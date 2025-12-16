@@ -1,6 +1,7 @@
 {
   "name": "mockserver-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.Akkshay10/MCPClientMock",
   "description": "MCP server for James Bloom MockServer - create expectations, verify requests, and manage mock state",
   "type": "module",
   "main": "./dist/index.js",
